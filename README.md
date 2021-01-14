@@ -17,5 +17,5 @@ Installing
 Using
 -----
 
-    var exe = require("exe-append");
-    var buffer = exe.append(fs.readFileSync("my.exe"), "arbirarty data");
+    const exe = require("exe-append");
+    const buffer = exe.append(fs.readFileSync("my.exe"), "arbirarty data");
